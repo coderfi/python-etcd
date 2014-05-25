@@ -16,6 +16,8 @@ Pre-requirements
 
 Install etcd (0.2.rc1 or later). This version of python-etcd will only work correctly with the etcd API version 2.
 
+This version python-etcd does NOT work with etcd v0.4. This is due to a breakage in the API. See https://github.com/coreos/etcd/blob/master/Documentation/modules.md
+
 This client is known to work with python 2.7 and with python 3.3 or above. It is not tested or expected to work in more outddated versions of python.
 
 From source
